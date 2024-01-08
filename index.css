@@ -819,7 +819,9 @@ Styles pour les écrans plus petits (ex. mobile) */
   }
 
   main{
-    margin: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2rem;
     padding-top:2rem;
   }
 
@@ -938,7 +940,9 @@ Styles pour les écrans plus petits (ex. mobile) */
   }
 
   main{
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2rem;
     padding-top:2rem;
   }
 
@@ -962,7 +966,9 @@ Styles pour les écrans plus petits (ex. mobile) */
   }
 
   main{
-    margin:15%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top: 8rem;
   }
 
   html{
