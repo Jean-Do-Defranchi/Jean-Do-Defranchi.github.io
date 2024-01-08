@@ -335,19 +335,19 @@ padding-left: 0.4rem
 }
 
 img{
-  width: 80%;
+  width: 50%;
   border-radius: 0.563rem;
   padding: 0.13rem;
 }
 
 .image-quatuor{
-  width: 60%;
+  width: 50%;
   border-radius: 0.563rem;
   padding: 0.13rem;
 }
 
 .image-duo{
-  width: 80%;
+  width: 55%;
   display: flex;
   flex-wrap: wrap;
 }
