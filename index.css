@@ -205,7 +205,6 @@ h2{
   justify-content: center;
   align-items: center;
   margin-bottom: 1.875rem;
-  background-color: #fbfbfb;
   border-radius: 1.125rem;
   padding: 0.5rem;
   margin-right: 1.875rem;
@@ -215,7 +214,7 @@ h2{
 .carte-projet{
   background-color: #fbfbfb;
   color: black;
-  width: 40%;
+  width: 50%;
   padding: 1rem;
   margin-left: 5%;
   margin-right: 0.8125;
@@ -246,7 +245,7 @@ h2{
 }
 
 .image-compétence{
-  width:50%;
+  width:40%;
   z-index: 1;
 }
 
@@ -327,7 +326,7 @@ padding-left: 0.4rem
   flex-wrap: wrap;
   border-radius: 0.688rem;
   padding: 0.75rem;
-  width: 50%;
+  width: 40%;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 0.625rem;
@@ -335,19 +334,13 @@ padding-left: 0.4rem
 }
 
 img{
-  width: 50%;
-  border-radius: 0.563rem;
-  padding: 0.13rem;
-}
-
-.image-quatuor{
-  width: 50%;
+  width: 70%;
   border-radius: 0.563rem;
   padding: 0.13rem;
 }
 
 .image-duo{
-  width: 55%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -677,6 +670,9 @@ background-color: #d4d4d4;
   width: 100%;
 }
 
+.content-about{
+  padding: 0.5rem;
+}
 
 .presentation-about{
   display: flex;
