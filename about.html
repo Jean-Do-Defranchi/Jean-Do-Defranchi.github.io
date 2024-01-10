@@ -1,5 +1,5 @@
-<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
-  <head> 
+<DOCKTYPE html>
+  <html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
     <title> Portfolio Jean-Do Defranchi </title>
     <link rel="stylesheet" href="index.css">
   </head>
@@ -54,28 +54,28 @@
                     <form name="form-contact" method="post" action="about.html" >
                       <div class="champs-nom">
                         <div class="input-container ic1">
-                          <input id="nom" class="input" type="text" placeholder=" " />
+                          <input id="nom" class="input" type="text" placeholder=" " required/>
                           <div class="label label-court"></div>
                           <label for="nom" class="placeholder">Nom</label>
                         </div>
                         <div class="input-container ic2">
-                          <input id="prénom" class="input" type="text" placeholder=" " />
+                          <input id="prénom" class="input" type="text" placeholder=" " required/>
                           <div class="label"></div>
                           <label for="prénom" class="placeholder">Prénom</label>
                         </div>
                       </div>
                       <div class="input-container ic2">
-                        <input id="email" class="input" type="text" placeholder=" " />
+                        <input id="email" class="input" type="text" placeholder=" " required/>
                         <div class="label label-court1"></div>
                         <label for="email" class="placeholder">Email</label>
                       </div>
                       <div class="input-container ic3">
-                        <input id="sujet" class="input" type="text" placeholder=" " />
+                        <input id="sujet" class="input" type="text" placeholder=" " required/>
                         <div class="label label-court1"></div>
                         <label for="sujet" class="placeholder">Sujet</label>
                       </div>
                       <div class="input-container ic4">
-                        <textarea rows="5" id="message" class="input-message" placeholder="Message"></textarea>
+                        <textarea rows="5" id="message" class="input-message" placeholder="Message" required></textarea>
                       </div>
                       <input type="reset" value="Effacer" class="reset"/>
                       <input type="submit" value="Envoyer" class="submit"/>
