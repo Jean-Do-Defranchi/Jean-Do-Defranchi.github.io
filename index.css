@@ -134,8 +134,9 @@ h1{
 
 .presentation{
   display: flex;
-  align-items:self-end;
+  align-items:end;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 
 .texte-presentation{
@@ -239,7 +240,7 @@ h2{
 }
 
 .compétences{
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -438,7 +439,7 @@ text-align: right;
 }
 
 .moyen-contact{
-  color:#3eabff;
+  font-weight: bold;
   margin-top: 0.3rem;
   margin-bottom:0.3rem;
 }
@@ -526,8 +527,8 @@ text-align: right;
   border: 0.2rem solid #3eabff;
 }
 
-.placeholder {
-  color: grey;
+::placeholder{
+  color: #a7a7a7;
   font-family: sans-serif;
   left: 1.25rem;
   line-height: 0.9rem;
@@ -536,6 +537,21 @@ text-align: right;
   transform-origin: 0 50%;
   transition: transform 200ms, color 200ms;
   top: 1.25rem;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+.placeholder {
+  color: #a7a7a7;
+  font-family: sans-serif;
+  left: 1.25rem;
+  line-height: 0.9rem;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 1.25rem;
+  font-size: 1rem;
 }
 
 .input:focus ~ .placeholder,
