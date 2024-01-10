@@ -560,7 +560,8 @@ text-align: right;
 }
 
 .input:not(:placeholder-shown) ~ .placeholder {
-  color: #3eabff;
+  color: #008314;
+  font-weight: bold;
 }
 
 .input:focus ~ .placeholder {
