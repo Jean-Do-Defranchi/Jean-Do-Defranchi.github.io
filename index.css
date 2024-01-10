@@ -21,7 +21,6 @@ main{
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
-  margin-left:21rem;
   padding: 1rem;
   /*effet glassy*/
   background: rgba(0, 0, 0, 0.718);
@@ -49,7 +48,6 @@ a{
 .profil:hover{
   opacity: 80%;
   cursor:pointer;
-  
 }
 
 .profil:active{
